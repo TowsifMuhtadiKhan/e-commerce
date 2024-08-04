@@ -1,40 +1,48 @@
-import { Box, Button, CardMedia, Divider, Grid, Typography } from '@mui/material';
+import { Box, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import sale1 from '../../../assets/sale1.webp';
+import StarRating from '../../../component/startRating';
 const products = [
 	{
 		id: 1,
 		title: ' Headphones',
-		description: '100 BDT',
+		description: '100 ',
 		imageUrl: sale1, // Replace with actual image path
 		alt: 'Wireless Headphones',
 	},
 	{
 		id: 2,
 		title: 'Smart Watch',
-		description: '100 BDT',
+		description: '100 ',
 		imageUrl: sale1, // Replace with actual image path
 		alt: 'Smart Watch',
 	},
 	{
 		id: 3,
 		title: 'Coffee Maker',
-		description: '100 BDT',
+		description: '100',
 		imageUrl: sale1, // Replace with actual image path
 		alt: 'Coffee Maker',
 	},
 	{
 		id: 3,
 		title: 'Coffee Maker',
-		description: '100 BDT',
+		description: '100',
 		imageUrl: sale1, // Replace with actual image path
 		alt: 'Coffee Maker',
 	},
 	{
 		id: 2,
 		title: 'Smart Watch',
-		description: '100 BDT',
+		description: '100',
 		imageUrl: sale1, // Replace with actual image path
 		alt: 'Smart Watch',
+	},
+	{
+		id: 3,
+		title: 'Coffee Maker',
+		description: '100',
+		imageUrl: sale1, // Replace with actual image path
+		alt: 'Coffee Maker',
 	},
 	{
 		id: 3,
@@ -43,40 +51,20 @@ const products = [
 		imageUrl: sale1, // Replace with actual image path
 		alt: 'Coffee Maker',
 	},
-
 	// Add more products as needed
 ];
 
-const FlashSale = () => {
+const JustForYou = () => {
 	return (
 		<Box width={'70%'} margin={'0 auto'} p={0} overflow="hidden">
 			<Typography fontSize={'22px'} color={'rgb(66, 66, 66)'} pb={2}>
-				Falsh Sale
+				Just For You
 			</Typography>
-			<Box bgcolor={'white'}>
-				<Box bgcolor={'white'} p={1}>
-					<Box
-						display={'flex'}
-						justifyContent={'space-between'}
-						alignItems={'center'}
-						p={1}
-					>
-						<Typography fontWeight={500} fontSize={'14px'} color={'#f85606'}>
-							On Sale Now
-						</Typography>
-						<Button
-							variant="outlined"
-							sx={{ color: '#f85606', borderColor: '#f85606' }}
-						>
-							SHOP ALL PRODUCTS
-						</Button>
-					</Box>
-				</Box>
-				<Divider />
-				<Box p={1}>
+			<Box>
+				<Box>
 					<Grid container spacing={2}>
 						{products.map((product) => (
-							<Grid item xs={12} sm={4} md={2} lg={2} key={product.id}>
+							<Grid item xs={12} sm={3} md={4} lg={2} key={product.id}>
 								<Box bgcolor={'white'} p={1}>
 									<Box height={250} overflow="hidden">
 										<CardMedia
@@ -94,28 +82,26 @@ const FlashSale = () => {
 										<Typography gutterBottom variant="h5">
 											{product.title}
 										</Typography>
-										<Typography
-											fontWeight={400}
-											fontSize={'22px'}
-											color={'#f85606'}
-										>
-											৳{product.description}
-										</Typography>
 										<Box
 											display={'flex'}
 											justifyContent={'flex-start'}
-											alignItems={'center'}
+											alignItems={'flex-end'}
 										>
 											<Typography
-												fontSize={'12px'}
-												color={'#9E9E9E'}
-												sx={{ textDecoration: 'line-through' }}
+												fontWeight={400}
+												fontSize={'22px'}
+												color={'#f85606'}
+												mr={1}
 											>
-												{product.description}
+												৳{product.description}
 											</Typography>
-											<Typography fontSize={'12px'} color={'black'}>
+											<Typography fontSize={'18px'} color={'#9E9E9E'}>
 												-{product.description}%
 											</Typography>
+										</Box>
+
+										<Box>
+											<StarRating value={4} max={5} numReviews={298} />
 										</Box>
 									</Box>
 								</Box>
@@ -128,4 +114,4 @@ const FlashSale = () => {
 	);
 };
 
-export default FlashSale;
+export default JustForYou;

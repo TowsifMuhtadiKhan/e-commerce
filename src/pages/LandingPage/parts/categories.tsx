@@ -36,7 +36,7 @@ const categories: Category[] = [
 const Categories = () => {
 	return (
 		<Box width={'70%'} margin={'0 auto'} p={0}>
-			<Typography fontSize={'22px'} color={'rgb(66, 66, 66)'}>
+			<Typography fontSize={'22px'} color={'rgb(66, 66, 66)'} pb={2}>
 				Categories
 			</Typography>
 			<Box bgcolor={'white'}>
