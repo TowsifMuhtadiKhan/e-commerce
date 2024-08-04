@@ -1,4 +1,4 @@
-import { Box, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Box, CardMedia, Grid, Typography } from '@mui/material';
 import sale1 from '../../../assets/sale1.webp';
 import StarRating from '../../../component/startRating';
 const products = [

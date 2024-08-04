@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import cat1 from '../../../assets/cat.webp';
 import cat2 from '../../../assets/cat2.webp';
 import cat3 from '../../../assets/cat3.webp';

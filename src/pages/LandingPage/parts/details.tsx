@@ -1,5 +1,4 @@
-import { Box, Button, CardMedia, Divider, Grid, Typography } from '@mui/material';
-import sale1 from '../../../assets/sale1.webp';
+import { Box, Grid, Typography } from '@mui/material';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import app from '../../../assets/app.png';
 import appstore from '../../../assets/GooglePlay.png';

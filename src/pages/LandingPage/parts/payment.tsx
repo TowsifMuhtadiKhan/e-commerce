@@ -1,6 +1,5 @@
 import { Box, Grid, Typography } from '@mui/material';
 import app from '../../../assets/app.png';
-import appstore from '../../../assets/GooglePlay.png';
 
 const Payment = () => {
 	return (

@@ -1,4 +1,4 @@
-import { Box, Grid } from '@mui/material';
+import { Box } from '@mui/material';
 import ImageSlider from '../../../component/sliderWithImage';
 import img1 from '../../../assets/1.webp';
 import img2 from '../../../assets/2.webp';
