@@ -31,4 +31,4 @@ You need to have Node.js and npm installed on your machine. This project was bui
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourgithubusername/daraz-clone.git
+   git clone [https://github.com/yourgithubusername/daraz-clone.git](https://github.com/TowsifMuhtadiKhan/e-commerce_daraz_clone)
