@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Daraz Clone Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a clone of the Daraz landing page, built using React, Vite, TypeScript, and Material-UI. It aims to replicate the design and functionality of the original Daraz website as a means to learn and demonstrate frontend development skills.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live demo of the application here: [Daraz Clone Landing Page](https://charming-florentine-b33cd8.netlify.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Responsive landing page design.
+- Interactive UI components using Material-UI.
+- Modern build setup with Vite and TypeScript.
 
-- Configure the top-level `parserOptions` property like this:
+## Technology Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern frontend build tool.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Material-UI**: A popular React UI framework.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have Node.js and npm installed on your machine. This project was built using Node.js version `xx.x.x` and npm version `x.x.x`. Please ensure you are using compatible versions.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourgithubusername/daraz-clone.git
